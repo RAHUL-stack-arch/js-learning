@@ -1,0 +1,35 @@
+/*all primitive datatype uses stack memory allocation
+where as all non primitive datatype uses heap memory allocation
+
+for example
+
+let name = "rahul"
+
+anothername = name
+
+anothername = "ank"
+printf(name)    this comes as rahul
+printf(anothername) this comes as ank
+
+because name and anothername is String datatype and store in stack that's why
+
+now if
+
+let user1 = {
+    name:rahl,
+    upi:jwllo
+}
+let user2= user1
+
+user2 = {
+    name:ank,
+    upi:rads
+}
+then
+
+printf(user1) both of them gives output (name:ank, upi: rads)
+printf(user2)
+
+because object is stored in heap memory 
+and heap memory gives original value reference
+*/
