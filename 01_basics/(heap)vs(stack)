@@ -32,4 +32,9 @@ printf(user2)
 
 because object is stored in heap memory 
 and heap memory gives original value reference
+
+in Hindi
+----in stack dusro ke se hum kuch change nhi kr sakte
+----in heap you can change the first one through its duplicate
+----  because ye original reference value deta hn
 */

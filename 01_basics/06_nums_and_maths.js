@@ -6,7 +6,8 @@ const num2 = new Number(100)
 console.log(num2)
 
 //now this number object has many properties 
-
+//now it become object therefore you can convert it to string object by 'toString()' method
+//and you can now use all the properties of the string object
 //but you can change these properties into string properties by using toString() method on number
 
 console.log(num2.toString().length)
@@ -32,4 +33,3 @@ let min = 10
 let max = 20
 
 console.log((Math.floor(Math.random() * (max - min))+1)+min)
-

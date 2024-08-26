@@ -29,7 +29,7 @@ console.log("1" + 2)     // 12
 console.log("1" + 2)     // 12
 console.log("1" + 2 + 2);// 122
 console.log(1 + 2 + "2");// 32
-//javascript run by left to right if first and second numbe is string then string will generate 
+//javascript run by left to right if first and second number is string then string will generate 
 //if both are number then number will generate
 
 
